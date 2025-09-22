@@ -1,0 +1,11 @@
+// color site
+$primary-color: #000a37;
+$secondary-color: #1f80ff;
+$tertiary-color: #31edae;
+$main-color: rgba(0, 7, 38, 0.5);
+
+@mixin title-section{
+    font-weight: bold;
+    color: $tertiary-color;
+    margin-top: 2rem;
+}

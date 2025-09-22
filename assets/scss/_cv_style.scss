@@ -1,0 +1,34 @@
+@use "variables" as*;
+
+.section-cv{
+    margin-top: 3rem;
+    color: #fff;
+    padding: 2rem;
+
+}
+.title-section-cv{
+    @include title-section
+}
+.col-one{
+    
+     .img-profile-cv{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+    
+}
+li{
+    padding-top:1rem;
+}
+}
+.col-two{
+    .lista-corsi-aggiornamento{
+        li{
+            padding-top: 1rem;
+        }
+    }
+}
+ 
