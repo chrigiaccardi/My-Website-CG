@@ -51,6 +51,24 @@
   font-size: 1.25rem;
 }
 
+.title-section-certificate {
+  font-weight: bold;
+  color: #31edae;
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+  .th-display-none {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .certificate-mobile {
+    display: none;
+  }
+}
 .portfolio {
   color: #fff;
 }

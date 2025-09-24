@@ -41,7 +41,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                             <li class="nav-item px-3">
-                                <a class="nav-link active" href="../../index.html">Home</a>
+                                <a class="nav-link" href="../../index.html">Home</a>
                             </li>
                             <li class="nav-item px-3">
                                 <a class="nav-link" href="../../index.html#chisono">Chi Sono</a>
@@ -50,7 +50,7 @@
                                 <a class="nav-link" href="../cv/index.html">Il Mio CV</a>
                             </li>
                             <li class="nav-item px-3">
-                                <a class="nav-link" href="../skill/index.html">Skill</a>
+                                <a class="nav-link active" href="../skill/index.html">Skill</a>
                             </li>
                             <li class="nav-item px-3">
                                 <a class="nav-link" href="../portfolio/index.html">Portfolio</a>
@@ -75,14 +75,14 @@
             l’evoluzione
             del mondo digitale.
         </p>
-        <table class="table-skills table table-striped table-hover text-center">
+        <table class="table-skills table table-striped table-hover text-center ">
             <thead>
                 <tr>
                     <th scope="col"></th>
                     <th scope="col">Competenza</th>
                     <th scope="col" style="width: 400px;">Livello</th>
                     <th scope="col">Dov'è stata acquisita</th>
-                    <th scope="col">Certificato</th>
+                    <th scope="col" class="th-display-none">Attestato</th>
                 </tr>
             </thead>
             <tbody>
@@ -99,7 +99,7 @@
                     <th>
                         <span class="badge rounded-pill text-success bg-success-subtle">Start2impact</span>
                     </th>
-                    <th>
+                    <th class="th-display-none">
                         <a href="../../assets/img/Introduzione_allo_Sviluppo_Certificato.png" target="_blank">
                             <img src="../../assets/img/icons/icons8-file-d'immagine.svg" alt="icon-svg-file-certificate"
                                 style="width: 3rem;">
@@ -120,7 +120,7 @@
                     <th>
                         <span class="badge rounded-pill text-success bg-success-subtle">Start2impact</span>
                     </th>
-                    <th>
+                    <th class="th-display-none">
                         <a href="../../assets/img/HTML_e_CSS_Certificato.png" target="_blank">
                             <img src="../../assets/img/icons/icons8-file-d'immagine.svg" alt="icon-svg-file-certificate"
                                 style="width: 3rem;">
@@ -141,8 +141,7 @@
                     <th>
                         <span class="badge rounded-pill text-success bg-success-subtle">Start2impact</span>
                     </th>
-                    <th>
-                    </th>
+                    <th class="th-display-none"></th>
                 </tr>
                 <tr>
                     <th scope="row"><img src="../../assets/img/icons/icons8-chat-gpt.svg" alt="icon-svg-chat-gpt"></th>
@@ -160,7 +159,7 @@
                         <span class="badge rounded-pill text-warning bg-warning-subtle">In Autonomia</span>
 
                     </th>
-                    <th></th>
+                    <th class="th-display-none"></th>
                 </tr>
 
                 <tr>
@@ -178,7 +177,7 @@
                         <span class="badge rounded-pill text-primary bg-primary-subtle">Scuola Superiore</span>
                         <span class="badge rounded-pill text-warning bg-warning-subtle">In Autonomia</span>
                     </th>
-                    <th></th>
+                    <th class="th-display-none"></th>
                 </tr>
                 <tr>
                     <th scope="row"><img src="../../assets/img/icons/icons8-nozione.svg" alt="icon-svg-notion"></th>
@@ -193,7 +192,7 @@
                     <th>
                         <span class="badge rounded-pill text-warning bg-warning-subtle">In Autonomia</span>
                     </th>
-                    <th></th>
+                    <th class="th-display-none"></th>
                 </tr>
                 <tr>
                     <th scope="row"><img src="../../assets/img/icons/icons8-macos.svg" alt="icon-svg-macos"></th>
@@ -208,7 +207,7 @@
                     <th>
                         <span class="badge rounded-pill text-warning bg-warning-subtle">In Autonomia</span>
                     </th>
-                    <th></th>
+                    <th class="th-display-none"></th>
                 </tr>
                 <tr>
                     <th scope="row"><img src="../../assets/img/icons/icons8-windows-10.svg" alt="icon-svg-windows"></th>
@@ -224,11 +223,27 @@
                         <span class="badge rounded-pill text-primary bg-primary-subtle">Scuola Superiore</span>
                         <span class="badge rounded-pill text-warning bg-warning-subtle">In Autonomia</span>
                     </th>
-                    <th></th>
+                    <th class="th-display-none"></th>
                 </tr>
             </tbody>
         </table>
+        
+        <div class="certificate-mobile text-center align-items-center">
+            <h3 class="title-section-certificate">Attestati</h3>
+            <div class="grid-projects">
 
+                <article class="card-project">
+                    <img src="../../assets/img/attestato-notion.png" alt="certificate-notion" class="img-card">
+                    <div class="body-card">
+                        <h3 class="card-title">Notion Power UP</h3>
+                        <p class="card-text">Studio del sistema NO-CODE Notion. <br> Creazione di Database, gestionali e
+                            flussi di lavoro.</p>
+                    </div>
+                    <a href="../../assets/img/attestato-notion.png" class="button-link-card">Attestato</a>
+                </article>
+
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
