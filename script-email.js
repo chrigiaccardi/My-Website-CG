@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const templateParams = {
             name: form.elements.name.value,
-            firstname: form.elements.firstname.value,
+            lastname: form.elements.firstname.value,
             phonenumber: form.elements.phonenumber.value,
             email: form.elements.email.value,
             message: form.elements.message.value,
