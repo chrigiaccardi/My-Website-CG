@@ -9,10 +9,6 @@ Progetto realizzato come portfolio personale durante il Master in Full Stack Dev
 - [Descrizione](#descrizione)
 - [Funzionalità principali](#funzionalità-principali)
 - [Tecnologie utilizzate](#tecnologie-utilizzate)
-- [Installazione](#installazione)
-- [Screenshot](#screenshot)
-- [Autore](#autore)
-- [Licenza](#licenza)
 
 ---
 
@@ -41,8 +37,3 @@ Un sito web multipagina per presentare il mio CV, le skills, i progetti realizza
 - **EmailJS**
 - **JavaScript** (per EmailJS)
 
----
-
-## Installazione
-
-1. Clona il repository:
