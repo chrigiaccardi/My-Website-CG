@@ -26,6 +26,26 @@
   padding-top: 1rem;
 }
 
+.table-skills {
+  border-radius: 15px;
+  border: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.table-skills th {
+  padding: 0.5rem;
+}
+.table-skills thead th {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+.table-skills tbody tr {
+  background-color: rgba(0, 0, 0, 0.127);
+}
+.table-skills tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
 .section-skills {
   color: #fff;
   align-items: center;
