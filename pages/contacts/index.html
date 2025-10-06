@@ -96,8 +96,8 @@
                     <label for="lastname">Cognome*</label>
                     <input id="lastname" type="text" name="lastname" placeholder="Es. Rossi" required />
 
-                    <label for="phonenumber">Numero di cellulare</label>
-                    <input id="phonenumber" type="tel" name="phonenumber" placeholder="Es. +39" />
+                    <label for="phonenumber">Numero di cellulare*</label>
+                    <input id="phonenumber" type="tel" pattern="[0-9]{7,15}" name="phonenumber" placeholder="Es. +39" required />
 
                     <label for="email">Email*</label>
                     <input type="email" name="email" placeholder="Es. mariorossi@gmail.com" required />
@@ -174,7 +174,7 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
 
-    <script src="../../script-email.js"></script>
+    <script src="../../assets/js/script-email.js"></script>
 
 </body>
 
