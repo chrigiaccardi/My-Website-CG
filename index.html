@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Christian Giaccardi | Homepage</title>
 
-    <!-- OG Tags -->
+    <!-- Meta & OG Tags -->
     <meta property="og:title" content="Christian Giaccardi's Website | Full Stack Developer">
     <meta property="og:type" content="website">
     <meta property="og:description"
         content="Christian Giaccardi, Full Stack Developer, amo sperimentare nuove tecnologie, risolvere problemi complessi e trasformare idee in progetti concreti.">
     <meta property="og:url" content="https://chrigiaccardi.github.io/My-Website-CG/">
     <meta property="og:image"
-        content="https://raw.githubusercontent.com/chrigiaccardi/My-Website-CG/refs/heads/main/assets/img/chri-foto.png">
-        <meta name="format-detection" content="telephone=no">
+        content="https://github.com/chrigiaccardi/My-Website-CG/blob/main/assets/img/chri-foto.png">
+    <meta name="description"
+        content="Christian Giaccardi, Full Stack Developer, amo sperimentare nuove tecnologie, risolvere problemi complessi e trasformare idee in progetti concreti.">
 
     <!-- Links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -61,7 +62,7 @@
                                 <a class="nav-link" href="pages/cv" aria-label="my-cv">Il Mio CV</a>
                             </li>
                             <li class="nav-item px-3">
-                                <a class="nav-link" href="pages/skill" aria-label="my-skills">Skills</a>
+                                <a class="nav-link" href="pages/skill" aria-label="my-skills">Le Mie Skills</a>
                             </li>
                             <li class="nav-item px-3">
                                 <a class="nav-link" href="pages/portfolio" aria-label="my-portfolio">Portfolio</a>
@@ -84,9 +85,9 @@
                     <div class="row g-0">
                         <div class="col-lg-8">
                             <div class="card-body">
-                                <h5 class="card-title text-center">
+                                <h1 class="card-title text-center">
                                     <strong>Ciao, sono Christian</strong>
-                                </h5>
+                                </h1>
                                 <p class="card-text">
                                     Dopo anni di curiosità e passione per il mondo digitale, ho
                                     deciso di trasformare il mio interesse per la tecnologia in
@@ -123,7 +124,7 @@
     <main>
         <div class="flexbox-main">
             <div class="description">
-                <h3 class="title-row" id="chisono">Chi Sono</h3>
+                <h2 class="title-row" id="chisono">Chi Sono</h2>
                 <p class="text-description">
                     Ciao, sono Christian Giaccardi, <br />
                     nato e cresciuto a Bra (CN), ho sempre avuto due grandi passioni: i
@@ -154,7 +155,7 @@
             </div>
 
             <div class="description">
-                <h3 class="title-row">Cosa so fare</h3>
+                <h2 class="title-row">Cosa so fare</h2>
                 <p class="text-description">
                     Ho realizzato questo sito web e altri progetti personali, mettendo
                     in pratica le competenze acquisite finora. <br />
@@ -176,7 +177,7 @@
     <!-- Form Contatti -->
     <section>
         <div class="container text-center align-items-center">
-            <h3 class="title-row">Lavoriamo Insieme</h3>
+            <h2 class="title-row">Lavoriamo Insieme</h2>
             <p style="color: #fff;">Hai un progetto? Vuoi avere delle informazioni? Scrivimi e possiamo trovare una
                 soluzione
                 <strong style="color: #31edae;">INSIEME!</strong>
@@ -190,11 +191,11 @@
                     <label for="lastname">Cognome*</label>
                     <input id="lastname" type="text" name="lastname" placeholder="Es. Rossi" required />
 
-                    <label for="phonenumber">Numero di cellulare</label>
-                    <input id="phonenumber" type="tel" name="phonenumber" placeholder="Es. +39" />
+                    <label for="phonenumber">Numero di cellulare*</label>
+                    <input id="phonenumber" type="tel" pattern="[0-9]{7,15}" name="phonenumber" placeholder="Es. +39" required/>
 
                     <label for="email">Email*</label>
-                    <input type="email" name="email" placeholder="Es. mariorossi@gmail.com" required />
+                    <input name="email" type="email" placeholder="Es. mariorossi@gmail.com" required />
 
                     <label for="message">Il Tuo Messaggio*</label>
                     <textarea name="message" id="message" placeholder="Scrivi di cosa hai bisogno" required></textarea>
@@ -224,7 +225,7 @@
                     <span>Links</span>
                     <li><a class="nav-link" aria-label="about" href="index.html#chisono">Chi Sono</a></li>
                     <li><a class="nav-link" aria-label="my-cv" href="pages/cv">Il Mio CV</a></li>
-                    <li><a class="nav-link" aria-label="my-skills" href="pages/skill">Skills</a></li>
+                    <li><a class="nav-link" aria-label="my-skills" href="pages/skill">Le Mie Skills</a></li>
                     <li><a class="nav-link" aria-label="my-portfolio" href="pages/portfolio">Portfolio</a></li>
                     <li><a class="nav-link" aria-label="contacts" href="pages/contacts">Contattami</a></li>
                 </ul>
@@ -265,7 +266,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
-    <script src="script-email.js"></script>
+    <script src="assets/js/script-email.js"></script>
 
 </body>
 

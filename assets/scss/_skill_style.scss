@@ -1,5 +1,35 @@
 @use "variables" as*;
 
+.table-skills{
+    border-radius: 15px;
+    border: #fff;
+    text-align: center;
+    overflow: hidden;
+    
+    th{
+    padding: 0.5rem;
+    }
+
+    thead{
+        th{
+            background-color: rgba(0,0,0,0.4);
+            padding: 1rem
+        }
+
+    }
+    tbody{
+        tr{
+            background-color: rgba(0, 0, 0, 0.127);
+        }
+        tr:hover{
+            background-color: rgba(0, 0, 0, 0.250);
+            
+        }
+    }
+
+
+}
+
 .section-skills{
     color: #fff;
     align-items: center;
